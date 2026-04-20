@@ -1,0 +1,34 @@
+# ── Secrets — NE JAMAIS COMMITTER ────────────────────────────────────────────
+.env
+*.pem
+*.crt
+*.key
+certs/*.pem
+certs/*.crt
+certs/*.key
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# ── Node ──────────────────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+.npm/
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# Garder docker-compose.yml mais pas les overrides locaux
+docker-compose.override.yml
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
