@@ -100,7 +100,7 @@ export default function Layout() {
             overflow:'hidden',
           }}>
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt="W3GathrVulns"
               style={{ width:'100%', height:'100%', display:'block', objectFit:'cover', marginTop: 10 }}
             />

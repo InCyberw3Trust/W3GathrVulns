@@ -48,7 +48,7 @@ export default function Login() {
             boxShadow: '0 4px 20px rgba(33,82,255,0.35)',
           }}>
             <img
-              src="/logo.svg"
+              src="/logo.png"
               alt="W3GathrVulns"
               style={{ width: '100%', height: '100%', display: 'block', objectFit: 'cover', marginTop: 10 }}
             />
